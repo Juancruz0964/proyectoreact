@@ -1,38 +1,42 @@
-.App {
-  text-align: center;
-}
+/* color palette
+#ead2ac cremae
+#004e89 azul oscuro
+#1a659e azul claro
+#ff6b35 naranja
+*/
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* Estilos para el Navbar */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav {
+  background-color: #ead2ac; /* Fondo del Navbar */
+  color: #000; /* Color de texto del Navbar */
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 10px 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.logo {
+  font-size: 24px;
+  font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cart {
+  display: flex;
+  align-items: center;
 }
+
+.cart i {
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.cart .cart-counter {
+  background-color: #ff6b35; /* Color de fondo del contador */
+  color: #fff; /* Color de texto del contador */
+  border-radius: 50%;
+  padding: 4px 8px;
+  font-size: 14px;
+}
+
+/* Estilos para el Navbar */
